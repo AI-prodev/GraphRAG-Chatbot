@@ -1,2 +1,2 @@
 # GraphRAG-Chatbot
-GraphRAG chatbot implementation for an e-commerce website
+GraphRAG chatbot implementation for e-commerce website
