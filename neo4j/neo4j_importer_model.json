@@ -1,0 +1,3537 @@
+{
+  "version": "2.0.0-beta.0",
+  "visualisation": {
+    "nodes": [
+      {
+        "id": "n:2",
+        "position": {
+          "x": -205.7543804149351,
+          "y": 43.44640998274928
+        }
+      },
+      {
+        "id": "n:3",
+        "position": {
+          "x": -199.128571299688,
+          "y": 300.51811623909407
+        }
+      },
+      {
+        "id": "n:5",
+        "position": {
+          "x": 205.2926623287283,
+          "y": 255.59040947013648
+        }
+      },
+      {
+        "id": "n:1",
+        "position": {
+          "x": -508.88932310825004,
+          "y": 32.88927109726612
+        }
+      },
+      {
+        "id": "n:6",
+        "position": {
+          "x": -314.74273879783783,
+          "y": -221.05171148637518
+        }
+      },
+      {
+        "id": "n:7",
+        "position": {
+          "x": -392.3888656430854,
+          "y": -118.684237716828
+        }
+      },
+      {
+        "id": "n:8",
+        "position": {
+          "x": -513.1673874778456,
+          "y": -94.53223159679082
+        }
+      },
+      {
+        "id": "n:9",
+        "position": {
+          "x": -195.9368461835096,
+          "y": -177.78133711369028
+        }
+      },
+      {
+        "id": "n:10",
+        "position": {
+          "x": -62.45841068234965,
+          "y": -236.45962398705618
+        }
+      },
+      {
+        "id": "n:11",
+        "position": {
+          "x": 145.34370961468053,
+          "y": -115.6255134972256
+        }
+      },
+      {
+        "id": "n:12",
+        "position": {
+          "x": 109.62358003771361,
+          "y": 9.216801561096048
+        }
+      },
+      {
+        "id": "n:13",
+        "position": {
+          "x": 205.0316535160134,
+          "y": 108.89191536280327
+        }
+      },
+      {
+        "id": "n:4",
+        "position": {
+          "x": 28.626105034920997,
+          "y": 487.2949958557697
+        }
+      },
+      {
+        "id": "n:14",
+        "position": {
+          "x": 206.4419906883011,
+          "y": 361.9421132590669
+        }
+      },
+      {
+        "id": "n:15",
+        "position": {
+          "x": -417.46431295129423,
+          "y": 521.8008323038364
+        }
+      },
+      {
+        "id": "n:16",
+        "position": {
+          "x": -557.3074406985476,
+          "y": 357.48594450623057
+        }
+      },
+      {
+        "id": "n:17",
+        "position": {
+          "x": -437.0180571311222,
+          "y": 388.18142491498384
+        }
+      },
+      {
+        "id": "n:18",
+        "position": {
+          "x": -188.77249597117594,
+          "y": 545.1517702236291
+        }
+      },
+      {
+        "id": "n:19",
+        "position": {
+          "x": -96.24242628363368,
+          "y": 473.7378462860546
+        }
+      },
+      {
+        "id": "n:20",
+        "position": {
+          "x": -607.2997366548608,
+          "y": 114.33202994898107
+        }
+      },
+      {
+        "id": "n:21",
+        "position": {
+          "x": 69.4546158274922,
+          "y": 369.26588722726905
+        }
+      },
+      {
+        "id": "n:22",
+        "position": {
+          "x": -550.6339511819104,
+          "y": 251.77102406559726
+        }
+      },
+      {
+        "id": "n:23",
+        "position": {
+          "x": 13.797188993076666,
+          "y": -158.3014413326493
+        }
+      },
+      {
+        "id": "n:24",
+        "position": {
+          "x": -287.3862980537974,
+          "y": 479.89888599378355
+        }
+      },
+      {
+        "id": "n:25",
+        "position": {
+          "x": -210.93655396650695,
+          "y": 168.0875477052631
+        }
+      }
+    ]
+  },
+  "dataModel": {
+    "version": "2.0.0-beta.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:2",
+            "token": "Dishwasher Part",
+            "properties": [
+              {
+                "$id": "p:1",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:3",
+            "token": "Refrigerator Part",
+            "properties": [
+              {
+                "$id": "p:2",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:5",
+            "token": "Name",
+            "properties": [
+              {
+                "$id": "p:3",
+                "token": "Part Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:4",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:1",
+            "token": " Name",
+            "properties": [
+              {
+                "$id": "p:13",
+                "token": "Part Name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:14",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:6",
+            "token": "Star_rating",
+            "properties": [
+              {
+                "$id": "p:21",
+                "token": "Rating",
+                "type": {
+                  "type": "float"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:22",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:7",
+            "token": "Stock_status",
+            "properties": [
+              {
+                "$id": "p:23",
+                "token": "In Stock",
+                "type": {
+                  "type": "boolean"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:24",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:8",
+            "token": "Price",
+            "properties": [
+              {
+                "$id": "p:9",
+                "token": "Price",
+                "type": {
+                  "type": "float"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:10",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:9",
+            "token": "Review_count",
+            "properties": [
+              {
+                "$id": "p:17",
+                "token": "Review Count",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:18",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:10",
+            "token": "Description",
+            "properties": [
+              {
+                "$id": "p:19",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:20",
+                "token": "Item Description",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:11",
+            "token": "Symptoms",
+            "properties": [
+              {
+                "$id": "p:11",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:12",
+                "token": "Fixes These Symptoms",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:12",
+            "token": "Replacements",
+            "properties": [
+              {
+                "$id": "p:7",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:8",
+                "token": "Replaces These Parts",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:13",
+            "token": "Compatible_models",
+            "properties": [
+              {
+                "$id": "p:5",
+                "token": "Compatible Models",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:6",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:4",
+            "token": "Star_rating",
+            "properties": [
+              {
+                "$id": "p:29",
+                "token": "Rating",
+                "type": {
+                  "type": "float"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:30",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:14",
+            "token": "Price",
+            "properties": [
+              {
+                "$id": "p:25",
+                "token": "Price",
+                "type": {
+                  "type": "float"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:26",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:15",
+            "token": "Symptoms",
+            "properties": [
+              {
+                "$id": "p:35",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:36",
+                "token": "Fixes These Symptoms",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:16",
+            "token": "Compatible_models",
+            "properties": [
+              {
+                "$id": "p:39",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:40",
+                "token": "Compatible Models",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:17",
+            "token": "Replacements",
+            "properties": [
+              {
+                "$id": "p:37",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:38",
+                "token": "Replaces These Parts",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:18",
+            "token": "Description",
+            "properties": [
+              {
+                "$id": "p:33",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:34",
+                "token": "Item Description",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:19",
+            "token": "Review_count",
+            "properties": [
+              {
+                "$id": "p:31",
+                "token": "Review Count",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:32",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:20",
+            "token": "MSNumber",
+            "properties": [
+              {
+                "$id": "p:15",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:16",
+                "token": "Manufacturer Part Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:21",
+            "token": "Stock_status",
+            "properties": [
+              {
+                "$id": "p:27",
+                "token": "In Stock",
+                "type": {
+                  "type": "boolean"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:28",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:22",
+            "token": "MSNumber",
+            "properties": [
+              {
+                "$id": "p:41",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:42",
+                "token": "Manufacturer Part Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:23",
+            "token": "Installation",
+            "properties": [
+              {
+                "$id": "p:43",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:44",
+                "token": "Installation Instructions",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:24",
+            "token": "Installation",
+            "properties": [
+              {
+                "$id": "p:45",
+                "token": "Part Select Number",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:46",
+                "token": "Installation Instructions",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:25",
+            "token": "Product",
+            "properties": [
+              {
+                "$id": "p:47",
+                "token": "PSNumber",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:48",
+                "token": "partName",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:49",
+                "token": "partPrice",
+                "type": {
+                  "type": "float"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:50",
+                "token": "inStock",
+                "type": {
+                  "type": "boolean"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:51",
+                "token": "partRating",
+                "type": {
+                  "type": "float"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:52",
+                "token": "partReviews",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:53",
+                "token": "MPNumber",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:54",
+                "token": "partDescription",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:55",
+                "token": "partSymptoms",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:56",
+                "token": "partReplaces",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:57",
+                "token": "partInstallation",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:58",
+                "token": "partCompatible",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          }
+        ],
+        "relationshipTypes": [
+          {
+            "$id": "rt:6",
+            "token": "HAS_RATING",
+            "properties": []
+          },
+          {
+            "$id": "rt:7",
+            "token": "HAS_STOCK",
+            "properties": []
+          },
+          {
+            "$id": "rt:8",
+            "token": "HAS_PRICE",
+            "properties": []
+          },
+          {
+            "$id": "rt:9",
+            "token": "HAS_NAME",
+            "properties": []
+          },
+          {
+            "$id": "rt:10",
+            "token": "HAS_MANUFACTURER",
+            "properties": []
+          },
+          {
+            "$id": "rt:5",
+            "token": "HAS_REVIEW",
+            "properties": []
+          },
+          {
+            "$id": "rt:4",
+            "token": "CONTAINS",
+            "properties": []
+          },
+          {
+            "$id": "rt:11",
+            "token": "SHOWS_INSTALLATION",
+            "properties": []
+          },
+          {
+            "$id": "rt:3",
+            "token": "FIXES_SYMPTOMS",
+            "properties": []
+          },
+          {
+            "$id": "rt:2",
+            "token": "REPLACES",
+            "properties": []
+          },
+          {
+            "$id": "rt:22",
+            "token": "HAS_MANUFACTURER",
+            "properties": []
+          },
+          {
+            "$id": "rt:21",
+            "token": "WORKS_WITH",
+            "properties": []
+          },
+          {
+            "$id": "rt:20",
+            "token": "REPLACES",
+            "properties": []
+          },
+          {
+            "$id": "rt:19",
+            "token": "FIXES_SYMPTOMS",
+            "properties": []
+          },
+          {
+            "$id": "rt:18",
+            "token": "SHOWS_INSTALLATION",
+            "properties": []
+          },
+          {
+            "$id": "rt:17",
+            "token": "CONTAINS",
+            "properties": []
+          },
+          {
+            "$id": "rt:16",
+            "token": "HAS_REVIEW",
+            "properties": []
+          },
+          {
+            "$id": "rt:15",
+            "token": "HAS_RATING",
+            "properties": []
+          },
+          {
+            "$id": "rt:14",
+            "token": "HAS_STOCK",
+            "properties": []
+          },
+          {
+            "$id": "rt:13",
+            "token": "HAS_PRICE",
+            "properties": []
+          },
+          {
+            "$id": "rt:12",
+            "token": "HAS_NAME",
+            "properties": []
+          },
+          {
+            "$id": "rt:1",
+            "token": "WORKS_WITH",
+            "properties": []
+          },
+          {
+            "$id": "rt:23",
+            "token": "IS_ELEMENT_OF",
+            "properties": []
+          },
+          {
+            "$id": "rt:24",
+            "token": "IS_ELEMENT_OF",
+            "properties": []
+          }
+        ],
+        "nodeObjectTypes": [
+          {
+            "$id": "n:2",
+            "labels": [
+              {
+                "$ref": "#nl:2"
+              }
+            ]
+          },
+          {
+            "$id": "n:3",
+            "labels": [
+              {
+                "$ref": "#nl:3"
+              }
+            ]
+          },
+          {
+            "$id": "n:5",
+            "labels": [
+              {
+                "$ref": "#nl:5"
+              }
+            ]
+          },
+          {
+            "$id": "n:1",
+            "labels": [
+              {
+                "$ref": "#nl:1"
+              }
+            ]
+          },
+          {
+            "$id": "n:6",
+            "labels": [
+              {
+                "$ref": "#nl:6"
+              }
+            ]
+          },
+          {
+            "$id": "n:7",
+            "labels": [
+              {
+                "$ref": "#nl:7"
+              }
+            ]
+          },
+          {
+            "$id": "n:8",
+            "labels": [
+              {
+                "$ref": "#nl:8"
+              }
+            ]
+          },
+          {
+            "$id": "n:9",
+            "labels": [
+              {
+                "$ref": "#nl:9"
+              }
+            ]
+          },
+          {
+            "$id": "n:10",
+            "labels": [
+              {
+                "$ref": "#nl:10"
+              }
+            ]
+          },
+          {
+            "$id": "n:11",
+            "labels": [
+              {
+                "$ref": "#nl:11"
+              }
+            ]
+          },
+          {
+            "$id": "n:12",
+            "labels": [
+              {
+                "$ref": "#nl:12"
+              }
+            ]
+          },
+          {
+            "$id": "n:13",
+            "labels": [
+              {
+                "$ref": "#nl:13"
+              }
+            ]
+          },
+          {
+            "$id": "n:4",
+            "labels": [
+              {
+                "$ref": "#nl:4"
+              }
+            ]
+          },
+          {
+            "$id": "n:14",
+            "labels": [
+              {
+                "$ref": "#nl:14"
+              }
+            ]
+          },
+          {
+            "$id": "n:15",
+            "labels": [
+              {
+                "$ref": "#nl:15"
+              }
+            ]
+          },
+          {
+            "$id": "n:16",
+            "labels": [
+              {
+                "$ref": "#nl:16"
+              }
+            ]
+          },
+          {
+            "$id": "n:17",
+            "labels": [
+              {
+                "$ref": "#nl:17"
+              }
+            ]
+          },
+          {
+            "$id": "n:18",
+            "labels": [
+              {
+                "$ref": "#nl:18"
+              }
+            ]
+          },
+          {
+            "$id": "n:19",
+            "labels": [
+              {
+                "$ref": "#nl:19"
+              }
+            ]
+          },
+          {
+            "$id": "n:20",
+            "labels": [
+              {
+                "$ref": "#nl:20"
+              }
+            ]
+          },
+          {
+            "$id": "n:21",
+            "labels": [
+              {
+                "$ref": "#nl:21"
+              }
+            ]
+          },
+          {
+            "$id": "n:22",
+            "labels": [
+              {
+                "$ref": "#nl:22"
+              }
+            ]
+          },
+          {
+            "$id": "n:23",
+            "labels": [
+              {
+                "$ref": "#nl:23"
+              }
+            ]
+          },
+          {
+            "$id": "n:24",
+            "labels": [
+              {
+                "$ref": "#nl:24"
+              }
+            ]
+          },
+          {
+            "$id": "n:25",
+            "labels": [
+              {
+                "$ref": "#nl:25"
+              }
+            ]
+          }
+        ],
+        "relationshipObjectTypes": [
+          {
+            "$id": "r:6",
+            "type": {
+              "$ref": "#rt:6"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:6"
+            }
+          },
+          {
+            "$id": "r:7",
+            "type": {
+              "$ref": "#rt:7"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:7"
+            }
+          },
+          {
+            "$id": "r:8",
+            "type": {
+              "$ref": "#rt:8"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:8"
+            }
+          },
+          {
+            "$id": "r:9",
+            "type": {
+              "$ref": "#rt:9"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:1"
+            }
+          },
+          {
+            "$id": "r:10",
+            "type": {
+              "$ref": "#rt:10"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:20"
+            }
+          },
+          {
+            "$id": "r:5",
+            "type": {
+              "$ref": "#rt:5"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:9"
+            }
+          },
+          {
+            "$id": "r:4",
+            "type": {
+              "$ref": "#rt:4"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:10"
+            }
+          },
+          {
+            "$id": "r:11",
+            "type": {
+              "$ref": "#rt:11"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:23"
+            }
+          },
+          {
+            "$id": "r:3",
+            "type": {
+              "$ref": "#rt:3"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:11"
+            }
+          },
+          {
+            "$id": "r:2",
+            "type": {
+              "$ref": "#rt:2"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:12"
+            }
+          },
+          {
+            "$id": "r:22",
+            "type": {
+              "$ref": "#rt:22"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:22"
+            }
+          },
+          {
+            "$id": "r:21",
+            "type": {
+              "$ref": "#rt:21"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:16"
+            }
+          },
+          {
+            "$id": "r:20",
+            "type": {
+              "$ref": "#rt:20"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:17"
+            }
+          },
+          {
+            "$id": "r:19",
+            "type": {
+              "$ref": "#rt:19"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:15"
+            }
+          },
+          {
+            "$id": "r:18",
+            "type": {
+              "$ref": "#rt:18"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:24"
+            }
+          },
+          {
+            "$id": "r:17",
+            "type": {
+              "$ref": "#rt:17"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:18"
+            }
+          },
+          {
+            "$id": "r:16",
+            "type": {
+              "$ref": "#rt:16"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:19"
+            }
+          },
+          {
+            "$id": "r:15",
+            "type": {
+              "$ref": "#rt:15"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:4"
+            }
+          },
+          {
+            "$id": "r:14",
+            "type": {
+              "$ref": "#rt:14"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:21"
+            }
+          },
+          {
+            "$id": "r:13",
+            "type": {
+              "$ref": "#rt:13"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:14"
+            }
+          },
+          {
+            "$id": "r:12",
+            "type": {
+              "$ref": "#rt:12"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:5"
+            }
+          },
+          {
+            "$id": "r:1",
+            "type": {
+              "$ref": "#rt:1"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:13"
+            }
+          },
+          {
+            "$id": "r:23",
+            "type": {
+              "$ref": "#rt:23"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:25"
+            }
+          },
+          {
+            "$id": "r:24",
+            "type": {
+              "$ref": "#rt:24"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:25"
+            }
+          }
+        ],
+        "constraints": [
+          {
+            "$id": "c:5",
+            "name": "Part_Select Number_Symptoms_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:11"
+            },
+            "properties": [
+              {
+                "$ref": "#p:11"
+              }
+            ]
+          },
+          {
+            "$id": "c:4",
+            "name": "Part_Select Number_Replacements_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:12"
+            },
+            "properties": [
+              {
+                "$ref": "#p:7"
+              }
+            ]
+          },
+          {
+            "$id": "c:7",
+            "name": "Part_Select Number_Description_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:10"
+            },
+            "properties": [
+              {
+                "$ref": "#p:19"
+              }
+            ]
+          },
+          {
+            "$id": "c:18",
+            "name": "Part_Select Number_Description_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:18"
+            },
+            "properties": [
+              {
+                "$ref": "#p:33"
+              }
+            ]
+          },
+          {
+            "$id": "c:19",
+            "name": "Part_Select Number_Symptoms_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:15"
+            },
+            "properties": [
+              {
+                "$ref": "#p:35"
+              }
+            ]
+          },
+          {
+            "$id": "c:20",
+            "name": "Part_Select Number_Replacements_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:17"
+            },
+            "properties": [
+              {
+                "$ref": "#p:37"
+              }
+            ]
+          },
+          {
+            "$id": "c:22",
+            "name": "Part_Select Number_Installation_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:23"
+            },
+            "properties": [
+              {
+                "$ref": "#p:43"
+              }
+            ]
+          },
+          {
+            "$id": "c:24",
+            "name": "Part_Select Number_Installation_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:24"
+            },
+            "properties": [
+              {
+                "$ref": "#p:45"
+              }
+            ]
+          },
+          {
+            "$id": "c:23",
+            "name": "Part_Select Number_MSNumber_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:22"
+            },
+            "properties": [
+              {
+                "$ref": "#p:41"
+              }
+            ]
+          },
+          {
+            "$id": "c:17",
+            "name": "Part_Select Number_Review_count_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:19"
+            },
+            "properties": [
+              {
+                "$ref": "#p:32"
+              }
+            ]
+          },
+          {
+            "$id": "c:21",
+            "name": "Part_Select Number_Compatible_models_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:16"
+            },
+            "properties": [
+              {
+                "$ref": "#p:39"
+              }
+            ]
+          },
+          {
+            "$id": "c:16",
+            "name": "Part_Select Number_Star_rating_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:4"
+            },
+            "properties": [
+              {
+                "$ref": "#p:30"
+              }
+            ]
+          },
+          {
+            "$id": "c:15",
+            "name": "Part_Select Number_Stock_status_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:21"
+            },
+            "properties": [
+              {
+                "$ref": "#p:28"
+              }
+            ]
+          },
+          {
+            "$id": "c:13",
+            "name": "Part_Select Number_Name_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:5"
+            },
+            "properties": [
+              {
+                "$ref": "#p:4"
+              }
+            ]
+          },
+          {
+            "$id": "c:14",
+            "name": "Part_Select Number_Price_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:14"
+            },
+            "properties": [
+              {
+                "$ref": "#p:26"
+              }
+            ]
+          },
+          {
+            "$id": "c:3",
+            "name": "Part_Select Number_Compatible_models_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:13"
+            },
+            "properties": [
+              {
+                "$ref": "#p:6"
+              }
+            ]
+          },
+          {
+            "$id": "c:6",
+            "name": "Part_Select Number_Review_count_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:9"
+            },
+            "properties": [
+              {
+                "$ref": "#p:18"
+              }
+            ]
+          },
+          {
+            "$id": "c:8",
+            "name": "Part_Select Number_Star_rating_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:6"
+            },
+            "properties": [
+              {
+                "$ref": "#p:22"
+              }
+            ]
+          },
+          {
+            "$id": "c:9",
+            "name": "Part_Select Number_Stock_status_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:7"
+            },
+            "properties": [
+              {
+                "$ref": "#p:24"
+              }
+            ]
+          },
+          {
+            "$id": "c:10",
+            "name": "Part_Select Number_Price_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:8"
+            },
+            "properties": [
+              {
+                "$ref": "#p:10"
+              }
+            ]
+          },
+          {
+            "$id": "c:11",
+            "name": "Part_Select Number__Name_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:1"
+            },
+            "properties": [
+              {
+                "$ref": "#p:14"
+              }
+            ]
+          },
+          {
+            "$id": "c:12",
+            "name": "Part_Select Number_MSNumber_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:20"
+            },
+            "properties": [
+              {
+                "$ref": "#p:15"
+              }
+            ]
+          },
+          {
+            "$id": "c:1",
+            "name": "Part_Select Number_Dishwasher_Part_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:2"
+            },
+            "properties": [
+              {
+                "$ref": "#p:1"
+              }
+            ]
+          },
+          {
+            "$id": "c:2",
+            "name": "Part_Select Number_Refrigerator_Part_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:3"
+            },
+            "properties": [
+              {
+                "$ref": "#p:2"
+              }
+            ]
+          },
+          {
+            "$id": "c:25",
+            "name": "PSNumber_Product_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:25"
+            },
+            "properties": [
+              {
+                "$ref": "#p:47"
+              }
+            ]
+          }
+        ],
+        "indexes": [
+          {
+            "$id": "i:1",
+            "name": "Part_Select Number_Dishwasher_Part_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:2"
+            },
+            "properties": [
+              {
+                "$ref": "#p:1"
+              }
+            ]
+          },
+          {
+            "$id": "i:2",
+            "name": "Part_Select Number_Refrigerator_Part_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:3"
+            },
+            "properties": [
+              {
+                "$ref": "#p:2"
+              }
+            ]
+          },
+          {
+            "$id": "i:3",
+            "name": "Part_Select Number_Compatible_models_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:13"
+            },
+            "properties": [
+              {
+                "$ref": "#p:6"
+              }
+            ]
+          },
+          {
+            "$id": "i:4",
+            "name": "Part_Select Number_Replacements_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:12"
+            },
+            "properties": [
+              {
+                "$ref": "#p:7"
+              }
+            ]
+          },
+          {
+            "$id": "i:5",
+            "name": "Part_Select Number_Symptoms_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:11"
+            },
+            "properties": [
+              {
+                "$ref": "#p:11"
+              }
+            ]
+          },
+          {
+            "$id": "i:6",
+            "name": "Part_Select Number_Review_count_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:9"
+            },
+            "properties": [
+              {
+                "$ref": "#p:18"
+              }
+            ]
+          },
+          {
+            "$id": "i:7",
+            "name": "Part_Select Number_Description_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:10"
+            },
+            "properties": [
+              {
+                "$ref": "#p:19"
+              }
+            ]
+          },
+          {
+            "$id": "i:8",
+            "name": "Part_Select Number_Star_rating_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:6"
+            },
+            "properties": [
+              {
+                "$ref": "#p:22"
+              }
+            ]
+          },
+          {
+            "$id": "i:9",
+            "name": "Part_Select Number_Stock_status_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:7"
+            },
+            "properties": [
+              {
+                "$ref": "#p:24"
+              }
+            ]
+          },
+          {
+            "$id": "i:10",
+            "name": "Part_Select Number_Price_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:8"
+            },
+            "properties": [
+              {
+                "$ref": "#p:10"
+              }
+            ]
+          },
+          {
+            "$id": "i:11",
+            "name": "Part_Select Number__Name_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:1"
+            },
+            "properties": [
+              {
+                "$ref": "#p:14"
+              }
+            ]
+          },
+          {
+            "$id": "i:12",
+            "name": "Part_Select Number_MSNumber_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:20"
+            },
+            "properties": [
+              {
+                "$ref": "#p:15"
+              }
+            ]
+          },
+          {
+            "$id": "i:13",
+            "name": "Part_Select Number_Name_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:5"
+            },
+            "properties": [
+              {
+                "$ref": "#p:4"
+              }
+            ]
+          },
+          {
+            "$id": "i:14",
+            "name": "Part_Select Number_Price_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:14"
+            },
+            "properties": [
+              {
+                "$ref": "#p:26"
+              }
+            ]
+          },
+          {
+            "$id": "i:15",
+            "name": "Part_Select Number_Stock_status_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:21"
+            },
+            "properties": [
+              {
+                "$ref": "#p:28"
+              }
+            ]
+          },
+          {
+            "$id": "i:16",
+            "name": "Part_Select Number_Star_rating_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:4"
+            },
+            "properties": [
+              {
+                "$ref": "#p:30"
+              }
+            ]
+          },
+          {
+            "$id": "i:17",
+            "name": "Part_Select Number_Review_count_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:19"
+            },
+            "properties": [
+              {
+                "$ref": "#p:32"
+              }
+            ]
+          },
+          {
+            "$id": "i:18",
+            "name": "Part_Select Number_Description_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:18"
+            },
+            "properties": [
+              {
+                "$ref": "#p:33"
+              }
+            ]
+          },
+          {
+            "$id": "i:19",
+            "name": "Part_Select Number_Symptoms_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:15"
+            },
+            "properties": [
+              {
+                "$ref": "#p:35"
+              }
+            ]
+          },
+          {
+            "$id": "i:20",
+            "name": "Part_Select Number_Replacements_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:17"
+            },
+            "properties": [
+              {
+                "$ref": "#p:37"
+              }
+            ]
+          },
+          {
+            "$id": "i:21",
+            "name": "Part_Select Number_Compatible_models_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:16"
+            },
+            "properties": [
+              {
+                "$ref": "#p:39"
+              }
+            ]
+          },
+          {
+            "$id": "i:22",
+            "name": "Part_Select Number_Installation_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:23"
+            },
+            "properties": [
+              {
+                "$ref": "#p:43"
+              }
+            ]
+          },
+          {
+            "$id": "i:23",
+            "name": "Part_Select Number_MSNumber_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:22"
+            },
+            "properties": [
+              {
+                "$ref": "#p:41"
+              }
+            ]
+          },
+          {
+            "$id": "i:24",
+            "name": "Part_Select Number_Installation_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:24"
+            },
+            "properties": [
+              {
+                "$ref": "#p:45"
+              }
+            ]
+          },
+          {
+            "$id": "i:25",
+            "name": "PSNumber_Product_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:25"
+            },
+            "properties": [
+              {
+                "$ref": "#p:47"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": [
+        {
+          "node": {
+            "$ref": "#n:2"
+          },
+          "keyProperty": {
+            "$ref": "#p:1"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:3"
+          },
+          "keyProperty": {
+            "$ref": "#p:2"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:13"
+          },
+          "keyProperty": {
+            "$ref": "#p:6"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:12"
+          },
+          "keyProperty": {
+            "$ref": "#p:7"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:11"
+          },
+          "keyProperty": {
+            "$ref": "#p:11"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:9"
+          },
+          "keyProperty": {
+            "$ref": "#p:18"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:10"
+          },
+          "keyProperty": {
+            "$ref": "#p:19"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:6"
+          },
+          "keyProperty": {
+            "$ref": "#p:22"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:7"
+          },
+          "keyProperty": {
+            "$ref": "#p:24"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:8"
+          },
+          "keyProperty": {
+            "$ref": "#p:10"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:1"
+          },
+          "keyProperty": {
+            "$ref": "#p:14"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:20"
+          },
+          "keyProperty": {
+            "$ref": "#p:15"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:5"
+          },
+          "keyProperty": {
+            "$ref": "#p:4"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:14"
+          },
+          "keyProperty": {
+            "$ref": "#p:26"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:21"
+          },
+          "keyProperty": {
+            "$ref": "#p:28"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:4"
+          },
+          "keyProperty": {
+            "$ref": "#p:30"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:19"
+          },
+          "keyProperty": {
+            "$ref": "#p:32"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:18"
+          },
+          "keyProperty": {
+            "$ref": "#p:33"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:15"
+          },
+          "keyProperty": {
+            "$ref": "#p:35"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:17"
+          },
+          "keyProperty": {
+            "$ref": "#p:37"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:16"
+          },
+          "keyProperty": {
+            "$ref": "#p:39"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:23"
+          },
+          "keyProperty": {
+            "$ref": "#p:43"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:22"
+          },
+          "keyProperty": {
+            "$ref": "#p:41"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:24"
+          },
+          "keyProperty": {
+            "$ref": "#p:45"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:25"
+          },
+          "keyProperty": {
+            "$ref": "#p:47"
+          }
+        }
+      ]
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": {
+        "type": "local/csv",
+        "tableSchemas": [
+          {
+            "$id": "t:2",
+            "name": "dish_parts.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "partName",
+                "type": "string",
+                "sample": "Dishwasher Upper Rack Adjuster Kit - White Wheels, Left and Right Sides",
+                "include": true
+              },
+              {
+                "name": "partPrice",
+                "type": "float",
+                "sample": "47.79",
+                "include": true
+              },
+              {
+                "name": "inStock",
+                "type": "boolean",
+                "sample": "True",
+                "include": true
+              },
+              {
+                "name": "partRating",
+                "type": "float",
+                "sample": "4.7",
+                "include": true
+              },
+              {
+                "name": "partReviews",
+                "type": "integer",
+                "sample": "609",
+                "include": true
+              },
+              {
+                "name": "PSNumber",
+                "type": "string",
+                "sample": "PS10065979",
+                "include": true
+              },
+              {
+                "name": "MPNumber",
+                "type": "string",
+                "sample": "W10712395",
+                "include": true
+              },
+              {
+                "name": "partDescription",
+                "type": "string",
+                "sample": "This authentic Dishwasher Upper Rack Adjuster Kit with white wheels is a kit made up of primarily pl...",
+                "include": true
+              },
+              {
+                "name": "partSymptoms",
+                "type": "string",
+                "sample": "Door won't close, Door latch failure, Not cleaning dishes properly, Noisy",
+                "include": true
+              },
+              {
+                "name": "partReplaces",
+                "type": "string",
+                "sample": "AP5957560, W10250159, W10350375, W10712395VP",
+                "include": true
+              },
+              {
+                "name": "partInstallation",
+                "type": "string",
+                "sample": "https://www.youtube.com/watch?v=pZO1rcMwKBc",
+                "include": true
+              },
+              {
+                "name": "partCompatible",
+                "type": "string",
+                "sample": "2213222N414, 2213223N414, 2213229N414, 2214523N611, 2214545N711, 66512762K312, 66512763K312, 6651276...",
+                "include": true
+              }
+            ]
+          },
+          {
+            "$id": "t:3",
+            "name": "fridge_parts.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "partName",
+                "type": "string",
+                "sample": "Refrigerator Door Shelf Retainer Bar",
+                "include": true
+              },
+              {
+                "name": "partPrice",
+                "type": "float",
+                "sample": "41.39",
+                "include": true
+              },
+              {
+                "name": "inStock",
+                "type": "boolean",
+                "sample": "True",
+                "include": true
+              },
+              {
+                "name": "partRating",
+                "type": "float",
+                "sample": "4.75",
+                "include": true
+              },
+              {
+                "name": "partReviews",
+                "type": "integer",
+                "sample": "169",
+                "include": true
+              },
+              {
+                "name": "PSNumber",
+                "type": "string",
+                "sample": "PS734935",
+                "include": true
+              },
+              {
+                "name": "MPNumber",
+                "type": "string",
+                "sample": "240534901",
+                "include": true
+              },
+              {
+                "name": "partDescription",
+                "type": "string",
+                "sample": "This door shelf retaining bar, also known as refrigerator door bar retainer or fridge door rack, is ...",
+                "include": true
+              },
+              {
+                "name": "partSymptoms",
+                "type": "string",
+                "sample": "Door won't open or close, Leaking",
+                "include": true
+              },
+              {
+                "name": "partReplaces",
+                "type": "string",
+                "sample": "AP3214630, 948954, 240534901",
+                "include": true
+              },
+              {
+                "name": "partInstallation",
+                "type": "string",
+                "sample": "https://www.youtube.com/watch?v=RBJ10wFvJ2M",
+                "include": true
+              },
+              {
+                "name": "partCompatible",
+                "type": "string",
+                "sample": "25331113300, 25331113302, 2533111330A, 2533111330C, 2533111330D, 2533111330F, 2533111330H, 253311133...",
+                "include": true
+              }
+            ]
+          },
+          {
+            "$id": "t:1",
+            "name": "combined_file.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "partName",
+                "type": "string",
+                "sample": "Dishwasher Upper Rack Adjuster Kit - White Wheels, Left and Right Sides",
+                "include": true
+              },
+              {
+                "name": "partPrice",
+                "type": "float",
+                "sample": "47.79",
+                "include": true
+              },
+              {
+                "name": "inStock",
+                "type": "boolean",
+                "sample": "True",
+                "include": true
+              },
+              {
+                "name": "partRating",
+                "type": "float",
+                "sample": "4.7",
+                "include": true
+              },
+              {
+                "name": "partReviews",
+                "type": "integer",
+                "sample": "609",
+                "include": true
+              },
+              {
+                "name": "PSNumber",
+                "type": "string",
+                "sample": "PS10065979",
+                "include": true
+              },
+              {
+                "name": "MPNumber",
+                "type": "string",
+                "sample": "W10712395",
+                "include": true
+              },
+              {
+                "name": "partDescription",
+                "type": "string",
+                "sample": "This authentic Dishwasher Upper Rack Adjuster Kit with white wheels is a kit made up of primarily pl...",
+                "include": true
+              },
+              {
+                "name": "partSymptoms",
+                "type": "string",
+                "sample": "Door won't close, Door latch failure, Not cleaning dishes properly, Noisy",
+                "include": true
+              },
+              {
+                "name": "partReplaces",
+                "type": "string",
+                "sample": "AP5957560, W10250159, W10350375, W10712395VP",
+                "include": true
+              },
+              {
+                "name": "partInstallation",
+                "type": "string",
+                "sample": "https://www.youtube.com/watch?v=pZO1rcMwKBc",
+                "include": true
+              },
+              {
+                "name": "partCompatible",
+                "type": "string",
+                "sample": "2213222N414, 2213223N414, 2213229N414, 2214523N611, 2214545N711, 66512762K312, 66512763K312, 6651276...",
+                "include": true
+              }
+            ]
+          }
+        ]
+      },
+      "nodeMappings": [
+        {
+          "node": {
+            "$ref": "#n:2"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:1"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:13"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:5"
+              },
+              "fieldName": "partCompatible"
+            },
+            {
+              "property": {
+                "$ref": "#p:6"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:12"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:7"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:8"
+              },
+              "fieldName": "partReplaces"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:11"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:11"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:12"
+              },
+              "fieldName": "partSymptoms"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:23"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:43"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:44"
+              },
+              "fieldName": "partInstallation"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:10"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:19"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:20"
+              },
+              "fieldName": "partDescription"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:9"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:18"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:17"
+              },
+              "fieldName": "partReviews"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:6"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:22"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:21"
+              },
+              "fieldName": "partRating"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:7"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:24"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:23"
+              },
+              "fieldName": "inStock"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:8"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:9"
+              },
+              "fieldName": "partPrice"
+            },
+            {
+              "property": {
+                "$ref": "#p:10"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:1"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:13"
+              },
+              "fieldName": "partName"
+            },
+            {
+              "property": {
+                "$ref": "#p:14"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:20"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:16"
+              },
+              "fieldName": "MPNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:15"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:3"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:2"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:5"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:4"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:3"
+              },
+              "fieldName": "partName"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:14"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:26"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:25"
+              },
+              "fieldName": "partPrice"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:21"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:27"
+              },
+              "fieldName": "inStock"
+            },
+            {
+              "property": {
+                "$ref": "#p:28"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:4"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:29"
+              },
+              "fieldName": "partRating"
+            },
+            {
+              "property": {
+                "$ref": "#p:30"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:19"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:32"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:31"
+              },
+              "fieldName": "partReviews"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:18"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:34"
+              },
+              "fieldName": "partDescription"
+            },
+            {
+              "property": {
+                "$ref": "#p:33"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:24"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:46"
+              },
+              "fieldName": "partInstallation"
+            },
+            {
+              "property": {
+                "$ref": "#p:45"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:15"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:36"
+              },
+              "fieldName": "partSymptoms"
+            },
+            {
+              "property": {
+                "$ref": "#p:35"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:22"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:42"
+              },
+              "fieldName": "MPNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:41"
+              },
+              "fieldName": "PSNumber"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:16"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:39"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:40"
+              },
+              "fieldName": "partCompatible"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:17"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:37"
+              },
+              "fieldName": "PSNumber"
+            },
+            {
+              "property": {
+                "$ref": "#p:38"
+              },
+              "fieldName": "partReplaces"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:25"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "PSNumber",
+              "property": {
+                "$ref": "#p:47"
+              }
+            },
+            {
+              "fieldName": "partName",
+              "property": {
+                "$ref": "#p:48"
+              }
+            },
+            {
+              "fieldName": "partPrice",
+              "property": {
+                "$ref": "#p:49"
+              }
+            },
+            {
+              "fieldName": "inStock",
+              "property": {
+                "$ref": "#p:50"
+              }
+            },
+            {
+              "fieldName": "partRating",
+              "property": {
+                "$ref": "#p:51"
+              }
+            },
+            {
+              "fieldName": "partReviews",
+              "property": {
+                "$ref": "#p:52"
+              }
+            },
+            {
+              "fieldName": "MPNumber",
+              "property": {
+                "$ref": "#p:53"
+              }
+            },
+            {
+              "fieldName": "partDescription",
+              "property": {
+                "$ref": "#p:54"
+              }
+            },
+            {
+              "fieldName": "partSymptoms",
+              "property": {
+                "$ref": "#p:55"
+              }
+            },
+            {
+              "fieldName": "partReplaces",
+              "property": {
+                "$ref": "#p:56"
+              }
+            },
+            {
+              "fieldName": "partInstallation",
+              "property": {
+                "$ref": "#p:57"
+              }
+            },
+            {
+              "fieldName": "partCompatible",
+              "property": {
+                "$ref": "#p:58"
+              }
+            }
+          ]
+        }
+      ],
+      "relationshipMappings": [
+        {
+          "relationship": {
+            "$ref": "#r:1"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:2"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:3"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:11"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:4"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:5"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:6"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:7"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:8"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:9"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:10"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:12"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:13"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:14"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:15"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:16"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:17"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          },
+          "toMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:18"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:19"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:20"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:21"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:22"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:23"
+          },
+          "tableSchema": {
+            "$ref": "#t:2"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          },
+          "toMapping": {
+            "fieldName": "PSNumber"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:24"
+          },
+          "tableSchema": {
+            "$ref": "#t:3"
+          },
+          "propertyMappings": [],
+          "toMapping": {
+            "fieldName": "PSNumber"
+          },
+          "fromMapping": {
+            "fieldName": "PSNumber"
+          }
+        }
+      ]
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}
